@@ -1,0 +1,41 @@
+.d {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 10px;
+}
+
+body {
+	background-color: #b3ffe6;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+.d1 {
+	width: 25%;
+	height: 50px;
+	color: white;
+	background: blue;
+}
+
+span {
+	padding-top:15px;
+	font-size: 25px;
+}
+
+.d2 {
+	width: 25%;
+	height: 50px;
+	color: white;
+	background: green;
+}
+
+.d3 {
+	width: 35%;
+	height: 50px;
+	color: white;
+	background: rgb(14, 167, 232);
+}

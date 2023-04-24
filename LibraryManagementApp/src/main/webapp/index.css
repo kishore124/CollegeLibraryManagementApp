@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+body {
+	background: url(BGimg2.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 200px;
+	font-size: 50px;
+}
+
+
+.student_img {
+	width: 120px;
+	height: 120px;
+}
+
+.adim_img {
+	margin-left: 130px;
+}
+
+.std_img {
+	margin-left: 90px;
+}
+
+.std_img a img {
+	width: 130px;
+}
+
+a img:hover {
+	transform: scale(1.5);
+}
+
+.img {
+	display: flex;
+	justify-content: center;
+}

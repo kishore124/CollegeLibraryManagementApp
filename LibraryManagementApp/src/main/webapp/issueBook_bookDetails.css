@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+
+.bookTable {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bookTable th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04AA6D;
+	color: white;
+}
+
+.bookTable td, .bookTable th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.bookTable tr:hover {
+	background-color: #ddd;
+}
+
+.s2 {
+	border: 2px solid black;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+.s1 {
+	border: 2px solid black;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 20px;
+	border-radius: 10px;
+	background-color: #34568b;
+	color: white;
+}
+
+.s1:hover {
+	background-color: #61d7ff;
+	color: black;
+	box-shadow: 10px 10px 3px lightblue;
+}
+
+h1 {
+	
+	text-align: center;
+	
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+}

@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+	width: 300px;
+	height: 100%;
+	background: #042331;
+}
+
+.context {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.ulist li {
+	list-style: none;
+}
+
+.ulist li a {
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	margin-left: 50px;
+	line-height: 80px;
+	margin-top: 100px;
+	border: 10px;
+}
+
+.ulist li a:hover {
+	font-size: 20px;
+	color: cyan;
+}

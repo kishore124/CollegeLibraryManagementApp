@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+
+.table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+th, td {
+	padding: 10px;
+	font-size: 30px;
+}
+
+p {
+	text-align: center;
+	font-size: 30px;
+}
+.input{
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.submitButton {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #000099;
+	border: 3px solid black;
+	border-radius: 20px;
+	color: white;
+	font-size: 20px;
+}
+
+.submitButton:hover {
+	background-color: #00ff00;
+	color: black;
+	cursor: pointer;
+}

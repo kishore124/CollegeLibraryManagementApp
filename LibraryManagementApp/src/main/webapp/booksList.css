@@ -1,0 +1,124 @@
+@charset "ISO-8859-1";
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	display: inline-block;
+	margin-left: 30%;
+}
+
+.button {
+	margin-top: 30px;
+	float: right;
+	padding: 10px;
+	background-color: blue;
+	border: 2px solid black;
+	border-radius: 10px;
+	color: white;
+	font-size: 20px;
+	margin-right: 15%;
+}
+
+.button:hover {
+	background-color: #99ff66;
+	box-shadow: 8px 8px 2px #99ff66;
+	color: black;
+	cursor: pointer;
+}
+
+.bookTable th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04AA6D;
+	color: white;
+}
+
+.bookTable td, .bookTable th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+.bookTable {
+  margin: 0 auto;
+  text-align: center;
+}
+.bookTable tr:hover {
+	background-color: #ddd;
+}
+
+.editButton {
+	background-color: blue;
+	color: white;
+	border: 2px solid black;
+	border-radius: 8px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+.editButton:hover {
+	background-color: red;
+	color: white;
+	cursor: pointer;
+}
+
+.addButton {
+	background-color: blue;
+	color: white;
+	border: 2px solid black;
+	border-radius: 8px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+.addButton:hover {
+	background-color: green;
+	color: white;
+	cursor: pointer;
+	cursor: pointer;
+}
+
+.searchButton {
+	background-color: #778899;
+	color: white;
+	border: 2px solid black;
+	border-radius: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-size: 20px;
+}
+
+.searchButton:hover {
+	background-color: green;
+	color: white;
+	cursor: pointer;
+}
+
+.searchBox{
+  border: 3px solid black;
+  padding-left:20px;
+  padding-top:7px;
+  padding-bottom:7px;
+  margin-right: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+}
+.left-div {
+	float: left;
+	padding-left: 10px;
+}
+
+
+
+.right-div {
+	float: right;
+	padding-right: 10px;
+}
