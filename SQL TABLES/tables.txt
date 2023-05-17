@@ -1,0 +1,111 @@
+ADMIN TABLE
+************
+
+CREATE TABLE `admin` (
+  `adminId` int NOT NULL AUTO_INCREMENT,
+  `admin_name` varchar(45) NOT NULL,
+  `admin_email` varchar(45) NOT NULL,
+  `gender` varchar(45) NOT NULL,
+  `admin_password` varchar(45) NOT NULL,
+  `status` varchar(45) NOT NULL,
+  `creationDate` date NOT NULL,
+  PRIMARY KEY (`adminId`)
+)
+
+INSERT INTO `admin` VALUES 
+(1,'Rahul Dravid ','dravid@ineuron.ai','male','dravid123','active','2023-03-19'),
+(2,'ravi','ravi@ineuron.ai','male','ravi123','active','2023-03-19'),
+(3,'anil','anil@ineuron.ai','male','anil1234','active','2023-03-19'),
+(4,'Nitin Y','nitin@ineuron.ai','male','nitin@123','active','2023-04-02'),
+(5,'Naveen Reddy','naveen@ineuron.ai','male','naveen@123','active','2023-04-02'),
+(6,'kishore','kishore@ineuron.ai','male','kishore123','active','2023-04-07'),
+(7,'mani','mani@ineuron.ai','male','123456','active','2023-04-07'),
+(8,'Lavanya','lavanya@ineuron.ai','female','lav123','active','2023-04-11'),
+(9,'Yuvraj','yuvi123@ineuron.ai','male','yuvi123','active','2023-04-11'),
+(10,'Anand','anand123@ineuron.ai','male','nitin123','active','2023-04-24'),
+(11,'Nitin M','nitin123@ineuron.ai','male','nitin123','active','2023-04-24'),
+(12,'Nitin Manjunath','nitin12@ineuron.ai','male','nitin123','active','2023-04-24');
+
+STUDENT TABLE
+**************
+CREATE TABLE `student` (
+  `stdId` int NOT NULL AUTO_INCREMENT,
+  `std_name` varchar(100) NOT NULL,
+  `std_email` varchar(45) NOT NULL,
+  `gender` varchar(45) NOT NULL,
+  `std_password` varchar(45) NOT NULL,
+  `status` varchar(45) NOT NULL,
+  `creationDate` date NOT NULL,
+  `fine` float NOT NULL,
+  PRIMARY KEY (`stdId`)
+) 
+
+INSERT INTO `student` VALUES 
+(1,' sachin tendulkar','sachin@ineuron.ai','male','sachin123','active','2023-03-19',0),
+(2,'Dhoni','dhoni@ineuron.ai','male','dhoni123','active','2023-03-19',40),
+(3,'kohli','kohli@ineuron.ai','male','kohli123','active','2023-03-19',50),
+(4,'Gill','gill@ineuron.ai','male','gill123','active','2023-03-19',
+0),(5,'Rohith','rohith@ineuron.ai','male','123','active','2023-03-19',0),
+(6,'Pandya','pandya@ineuron.ai','male','pand123','active','2023-04-02',0),
+(7,'Manikanta Kishore','kishore@ineuron.ai','male','kishore12','active','2023-04-02',60),
+(8,'mani','mani@ineuron.ai','male','mani123','active','2023-04-02',0),
+(9,'Nitin M','nitin@ineuron.ai','male','nitin123','active','2023-04-11',0),
+(10,'Anand','anand123@ineuron.ai','male','anand123','active','2023-04-13',0),
+(11,'K Venkatesh','venky123@ineuron.ai','male','venky123','active','2023-04-13',0),
+(12,'G Sumanth','sumanth1@ineuron.ai','male','sumanth','active','2023-04-13',0),
+(13,'Galla kishore','kishore123@ineuron.ai','male','kishore123','active','2023-04-24',0);
+
+
+BOOKS TABLE
+***********
+
+CREATE TABLE `bookslist` (
+  `bookId` int NOT NULL AUTO_INCREMENT,
+  `bookName` varchar(45) NOT NULL,
+  `authorName` varchar(45) NOT NULL,
+  `publisher` varchar(45) NOT NULL,
+  `isbNumber` bigint NOT NULL,
+  `category` varchar(45) NOT NULL,
+  `status` varchar(45) NOT NULL,
+  `price` float NOT NULL,
+  `creationDate` date NOT NULL,
+  PRIMARY KEY (`bookId`)
+)
+
+INSERT INTO `bookslist` VALUES 
+(1,'Core Java ','Kathy Sierran','Oracle Press',1234567891,'Technology','available',800.36,'2023-03-21'),
+(2,'Mysql 2.0','Paul DuBois','Mysqlpapers',1234561234,'Technology','available',960.56,'2023-03-21'),
+(3,'DC Machines 2','JB Gupta','National Envey',7894561236,'Technology','available',800.3,'2023-03-21'),
+(4,'Spring Boot','B. Prasad','Pages',7417417412,'Technology','available',1500.3,'2003-03-21'),
+(5,'AC Machines 2.0','ELectrical JB Gupta','National Envey',4564561235,'Technology','available',1000.36,'2023-03-21'),
+(6,'Signals And Systems 2','anand kumar','PHIL',7897897894,'Technology','available',1100.2,'2023-03-21'),
+(7,'Advanced Java','B. Prasanalakshmi ','pages',1231234563,'Technology','available',100.3,'2023-03-21'),
+(8,'Python 1','Mark Lutz','python pages',8528522582,'Technology','available',1000.3,'2023-03-21'),
+(9,'DC Machines ','Hendry','Pages',9633699638,'Technology','available',923.33,'2023-03-21'),
+(10,'Java EE 8 Application Development','David R. Heffelfinger','Packt Publishing Ltd',7419638523,'Technology','available',1000.69,'2023-04-08'),
+(11,'PHP And MySql programming',' Alan Forbes','SitePoint',4567891472,'Technology','available',600,'2023-04-13'),
+(12,'PHP and Mysql',' Alan Forbes','SitePoint',4569871474,'Technology','available',800,'2023-04-13'),
+(13,'Spring Boot ','John\'s Carnell','Site Point',7412589638,'Technology','available',856,'2023-04-13'),
+(14,'Engineering Maths M1','S Chand','Atuls Publishers',7899632145,'Maths','available',500.6,'2023-04-14'),
+(15,'Java','James','3 stars',7894561236,'Technology','available',852.3,'2023-04-22'),
+(16,'Harry Potter','Valerie Franke','Bloombury',7894561236,'Comedy','available',800.35,'2023-04-23'),
+(17,'Born a Crime','Trevor Noah','Pages',7894125631,'Comedy','available',800.96,'2023-04-23'),
+(18,'Born a Crime','Trevor Noah','Pages',7894125631,'Comedy','available',800.96,'2023-04-23'),
+(19,'Spring Boot 2.0','Dinesh Rajput','Atlanta Publisher',4561237896,'Technology','available',900,'2023-04-24'),
+(20,'Spring 3.0','Dinesh Kumar','Atlanta Publishers',7894561239632,'Technology','available',600.89,'2023-04-24'),
+(21,'Spring Boot 1.0','Rod Johnson','Atlanta publishers',4561237894563,'Technology','available',950.63,'2023-04-24');
+
+
+ISSUE BOOK TABLE
+****************
+
+CREATE TABLE `issuebookdetails` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `BookId` int NOT NULL,
+  `StudentId` int NOT NULL,
+  `IssueDate` date NOT NULL,
+  `ReturnDate` date NOT NULL,
+  `status` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`)
+)
+
