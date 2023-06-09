@@ -1,5 +1,5 @@
 # CollegeLibraryManagementApp
-This is a Collenge Library Management Project using JBDC,Servlet, JSP, HTML, CSS, MySQL .
+This is a College Library Management Project using JBDC,Servlet, JSP, HTML, CSS, MySQL .
 Having features like:-
 
 1.Registration of students and library admins.
